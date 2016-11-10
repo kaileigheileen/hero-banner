@@ -15,17 +15,30 @@ html {
 
 .banner {
   overflow: hidden;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+  position: relative;
   max-height: 500px;
-  max-width: 50em;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .banner-head {
-  position: relative;
+  position: absolute;
+  transform: translateX(-50%);
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  max-width: 50em;
+}
+
+h2 {
+  font-size: 4rem;
+  display: inline;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+p {
+  font-size: 2rem;
+  font-style: italic;
 }
 
 body {
